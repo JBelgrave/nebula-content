@@ -53,7 +53,7 @@ let lastChar = temp[temp.length-1]
 console.log(lastChar)
 
 // 8. Write code to grab the first 3 letters from a string. 
-console.log(temp[0] + temp[1] + temp[3])
+console.log(temp.slice(0, 3))
 
 // 9. Turn the following string into an array of words: 'This-is-a-sentence';
 const sentence1 = 'This-is-a-sentence';

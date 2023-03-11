@@ -67,4 +67,21 @@ if("this string has a truthy value"){
 
   if(1){
     console.log("You'll see this though!");}
-*/
+
+--Logical Operators*/
+let x = 10
+let y = 25
+
+if(x < 25 && y > 20){
+  console.log('this is true')
+}
+/*Code in this block will execute because 
+the expressions on both sides of the && operator 
+evaluate to true*/
+
+if(x < 25 && y > 25){
+  console.log('this is false')
+/*Code in this block will NOT execute because 
+the expression on the right side of the && operator 
+evaluates to false*/
+}
