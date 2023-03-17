@@ -37,12 +37,12 @@ const favFoods = "Pineapple Pizza Pepporoni";
 
 // Convert the prior string into an array of words (don't worry about where punctuation lands). 
 //  Ex: ['My', 'favorite', 'foods', 'are', 'za,', 'pineapple,', 'hawaiian-pizza']
-const favSplice = favFoods.split(" ")
+let favArray = favFoods.split(' ')
 
 // Convert the output from the prior example back into a string, but with dashes between the words. 
 //  Ex: 'My-favorite-foods-are,-za,-pineapple,-hawaiian-pizza'
-favSplice.join("-")
-console.log(favSplice)
+console.log(favArray.join("-"))
+
 
 // Given the following array: [1,2,3,4,5,7,8,9,10]
 // insert the number 6 into its logical location
