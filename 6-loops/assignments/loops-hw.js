@@ -52,11 +52,30 @@ console.log(celebLastArray);
 
 // 7.   Loop over the celebrityist and then loop through each name. 
 //      If a letter is a vowel, log it to the console
-
+const vowels = 'aeiou'
+for(g = 0; g < celeb.length; g++){
+    const name = celeb[g]
+    for(h = 0; h < name.length; h++){
+        const char = name[h]
+        if(vowels.includes(char)){
+            console.log(char)
+        }
+    }
+}
 
 
 // 8.   Loop over the celebrity list and then loop through each name. 
 //      If a letter is uppercase, log it to the console
+const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+for(i = 0; i < celeb.length; i++){
+    const name = celeb[i]
+    for(j = 0; j < name.length; j++){
+        const char = name[j]
+        if(upper.includes(char)){
+            console.log(char)
+        }
+    }
+}
 
 
 
@@ -71,6 +90,15 @@ console.log(celebUpper)
 //      Save that name to a variable
 //      Loop over the array until you find that individual
 //      Log that name to the console and break out of the loop
+const fav = celeb[3]
+for(k = 0; k < celeb.length; k++){
+    if(fav === celeb[k]){
+        console.log(celeb[k])
+        break;
+    }
+
+}
+
 
 
 //BONUS:
@@ -79,3 +107,14 @@ console.log(celebUpper)
 //      If an index is divisible by 3 log 'buzz'
 //      If an index is divisible by both 2 & 3, log 'fizz-buzz'
 //      Otherwise print the index to the console
+for(l = 0; l <= 30; l++){
+    if(l % 2 === 0 && l % 3 !== 0){
+        console.log(l, "fizz")
+    }else if(l % 2 !== 0 && l % 3 === 0){
+        console.log(l, "buzz")
+    }else if (l % 2 === 0 && l % 3 === 0){
+        console.log(l, "fizz buzz")
+    }else{
+        console.log(l)
+    }
+}
