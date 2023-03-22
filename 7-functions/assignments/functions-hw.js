@@ -6,9 +6,9 @@ function addOne(numArray){
         numArray[i]++
         newArr.push(numArray[i])
     }
-    console.log(newArr)
+    return newArr
 }
-addOne([4, 5, 6])
+console.log(addOne([4, 5, 6]))
 
   // 2. Write a function that takes in a string, and a letter, and returns true or false if the string contains the letter.
   // Example string = "happy birthday", letter = "a", should return true
