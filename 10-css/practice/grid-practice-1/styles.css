@@ -1,0 +1,26 @@
+:root{
+    --pink: #EF476F;
+    --yellow: #FFD166;
+    --teal: #06D6A0;
+    --lightBlue: #118AB2;
+    --darkBlue: #073B4C;
+}
+
+body{
+    background-color: var(--darkBlue);
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    background-color: var(--lightBlue);
+    grid-template: repeat(3, 200px)/ repeat(3, 200px);
+    place-items: center;
+}
+
+.item{
+    height: 80%;
+    width: 80%;
+    background-color: var(--yellow);
+}
