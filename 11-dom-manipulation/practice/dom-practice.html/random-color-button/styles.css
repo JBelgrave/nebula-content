@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+.clicker button{
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: #D9ED92;
+    color: #184E77;
+}
