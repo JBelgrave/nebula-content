@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial';
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    background-color: #168aad;
+}
+
+.main {
+    margin: 20px;
+    border-radius: 25px;
+    height: 100vh;
+    width: 100vh;
+    background-color: #76bca8;
+}
+
+#id-card {
+    text-align: left;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+}
+
+#id-card img {
+    display: flex;
+    border-radius: 25px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#generate-button {
+    padding: 5px;
+    margin: 15px;
+}
