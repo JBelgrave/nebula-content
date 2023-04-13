@@ -107,7 +107,7 @@ class MathTeacher extends Teacher {
     this.yearsOfExperience = yearsOfExperience;
   }
   fullIntro() {
-    return `Hi, my name is ${this.name}, I am a math teacher with ${this.yearsOfExperience} years of experience.`;
+    return `Hi, my name is ${this.name}, I am a ${this.subject} teacher with ${this.yearsOfExperience} years of experience.`;
   }
 }
 
