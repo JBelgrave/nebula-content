@@ -104,6 +104,22 @@ h1 {
             rgba(155, 0, 250, 1) 100%);
 }
 
+.asc {
+    background: linear-gradient(90deg,
+            rgba(20, 159, 255, 1) 0%,
+            rgba(17, 122, 255, 1) 100%);
+    padding: 16px 22px;
+    font-size: medium;
+}
+
+.desc {
+    background: linear-gradient(90deg,
+            rgba(20, 159, 255, 1) 0%,
+            rgba(17, 122, 255, 1) 100%);
+    padding: 16px 22px;
+    font-size: medium;
+}
+
 .icons {
     display: flex;
     align-items: center;
