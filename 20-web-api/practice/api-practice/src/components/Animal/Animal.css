@@ -1,0 +1,13 @@
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    width: 500px;
+    margin: 20px;
+}
+.species {
+    text-indent: 10px;
+}
+.averageAge {
+    text-indent: 10px;
+}
+  

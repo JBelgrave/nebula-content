@@ -1,0 +1,18 @@
+/* My App.css looks like this:  */
+.App{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* and my DogCard.css looks like this: */
+.dogCard{
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px black;
+    overflow: hidden;
+}
+
+.dogCard img{
+    height: 300px;
+}
